@@ -1,0 +1,474 @@
+h2 {
+    font-family: "Gill Sans";
+    font-size: 1.5em;
+    color: #5f1fbf;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Gill Sans";
+    font-size: 1.25em;
+    color: #8b21c4;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Gill Sans";
+}
+
+p,strong {
+  font-family: "Gill Sans";
+  
+}
+
+li {
+  font-family: "Gill Sans";
+  font-size: 20px;
+}
+
+
+body  {
+  background-image: url("../images/menuback.jpeg");
+  /* background-size: 100%; */
+  background-color: #cccccc;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Gill Sans";
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #8787e3;
+    color: white;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-family: "Gill Sans";
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ccccff;
+    font-family: "Gill Sans";
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    font-family: "Gill Sans";
+    background-image: url("images/menuback.jpeg");
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    font-family: "Gill Sans";
+    background-image: url("images/menuback.jpeg");
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;  
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    background-image: url("images/menuback.jpeg");
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+button {
+    background-color: #cc99ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Gill Sans";
+  }
+
+button a:hover {
+    background-color: #8d8dd5;
+}
+  .vertical-center {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 46%;
+
+  }
+
+.flavor {
+    background-color: #ccccff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 500px;
+
+}
+.flavor1 {
+  background-color: #ccccff;
+  margin-top: 190px;
+  height: 1000px;
+
+}
+.flavorpic{
+    float:left;
+    padding: 20px;
+
+}
+.flavorpic1{
+  float:right;
+  padding: 20px;
+
+}
+
+.description{
+    top:50px;
+}
+
+
+.feature {
+    background-color:#FFC6E8;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+
+}
+.browse {
+    background-color:#ccccff;
+
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+
+}
+
+.other {
+    background-color:#FFC6E8;
+}
+.column {
+    float: left;
+    width: 15.66%;
+    padding: 5px;
+    font-family: "Gill Sans";
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column2 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+  }
+
+.bottom {
+    background-color:#b57ee0;
+    margin-top:250px;
+    height:250px;
+}
+
+.dairyfree {
+  background-color: #ccccff;
+  margin-top: 190px;
+  height: 400px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  background-image: url("images/menuback.jpeg");
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  background-image: url("images/menuback.jpeg");
+  background-size: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container{
+  text-align: center;
+  font-family: "Gill Sans";
+  background-color: #cc99ff;
+  padding: 2px 16px;
+  color:white;
+  background-image: url("images/menuback.jpeg");
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+.column1 {
+  float: left;
+  width: 14.19%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+#sidebar {
+  float: left;
+  padding: 1em;
+  font-size: 0.875em;
+}
+
+#sidebar h3 {
+  font-size: 1.1.25em;
+  border-bottom: 1px dotted #ccc;
+}
+
+footer {
+  clear: both;
+  margin: 0;
+  padding: .5em;
+  color: #333333;
+  font-variant: small-caps;
+  font-size: .813em;
+  text-align: center;
+  border-top: 1px dotted #cccccc;
+}
+
+form {
+  width: 75%;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c96969;
+  padding: 10px;
+}
+
+legend {
+  font-style: bold;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 5px;
+  font-family:"Gill Sans";
+}
+
+label {
+  font-style: bold;
+  text-align: center;
+  font-family:"Gill Sans";
+}
+
+html {overflow-y: scroll;}
+#activitytabs {
+clear:both;
+}
+
+.map {
+  margin-left: 420px;
+}
+
+h1.ml8 {
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+
+.ml8 .bang {
+  font-size: 1.4em;
+  top: auto;
+  left: -0.06em;
+}
+
+.ml8 .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.ml8 .circle-white {
+  width: 3em;
+  height: 3em;
+  border: 2px dashed white;
+  border-radius: 2em;
+}
+
+.ml8 .circle-dark {
+  width: 2.2em;
+  height: 2.2em;
+  background-color: #ccccff;
+  border-radius: 3em;
+  z-index: 1;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 2.4em;
+  background-color: transparent;
+  border: 2px dashed #4f7b86;
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
